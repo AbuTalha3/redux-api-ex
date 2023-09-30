@@ -4,7 +4,7 @@ import axios from "axios";
 const initialState = {
   users: [],
   isLoading: false,
-  error: unidentified,
+  error: null,
 }
 
 export const fetchUsers = createAsyncThunk('users/fetchUsers', async (_, thunkAPI) => {
